@@ -1,0 +1,120 @@
+/*DEVELOPER: Philip Yung, IS117-101, Fall 2022*/
+
+body {
+  background-color: #2c3136;
+}
+
+.footer {
+  position: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(73, 81, 84);
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  letter-spacing: 0.1rem;
+}
+.contact-title {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-text {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-text {
+  padding: 3rem;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 400;
+  color: whitesmoke;
+  font-size: 4rem;
+  letter-spacing: 0.2rem;
+}
+
+.subheader-text {
+  padding: 1rem;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 400;
+  color: whitesmoke;
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+}
+.col {
+  width: 500px;
+  height: 50px;
+  /* border-radius: 35px; */
+  padding-top: 30px;
+}
+
+.col-6 {
+  padding-top: 20px;
+  line-height: 200%;
+}
+.text-sm-start {
+  text-align: right;
+}
+
+.col-sm-4 {
+  text-align: center;
+  float: right;
+}
+.card-img-top {
+  position: center;
+  width: auto;
+  /* border-radius: 30px; */
+  padding: 25px;
+}
+.card {
+  background-color: darkgrey;
+  box-shadow: 10px 5px 5px black;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 1rem;
+  /* border-radius: 6px; */
+}
+
+.container {
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.story {
+  width: 50%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  justify-content: space-evenly;
+}
+
+.largeImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tests {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.reviewer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

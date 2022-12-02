@@ -1,0 +1,175 @@
+<!--DEVELOPER: Philip Yung, IS117-101, Fall 2022-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SouthSide Investments Trading Blog</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <nav
+          class="navbar navbar-expand-md justify-content-start bg-dark navbar-dark col-12"
+        >
+          <!-- Brand -->
+          <a class="navbar-brand" href="index.html">SouthSide Investments</a>
+          <!-- Responsive Button for the smaller menu -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <!-- Links -->
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about_me.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="testimonials.html">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbardrop"
+                  data-toggle="dropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Trading Blog
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="posts.html"
+                    >All Blog Posts</a
+                  >
+                  <a class="dropdown-item" href="newsletter.html">Newsletter</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <h2 class="header-text text-center">Contact Me</h2>
+      <div class="container">
+        <div class="flex-container">
+          <div style="width: 50%">
+            <form action="">
+              <div class="form-group">
+                <label for="firstname" class="text-white">First Name:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstname"
+                  placeholder="First name"
+                  name="firstname"
+                />
+              </div>
+              <div class="form-group">
+                <label for="lastname" class="text-white">Last Name:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastname"
+                  placeholder="Last name"
+                  name="lastname"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email" class="text-white">Email:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter email"
+                  name="email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone" class="text-white">Phone Number:</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="phone"
+                  placeholder="Enter phone number"
+                  name="phone"
+                />
+              </div>
+              <div class="form-group">
+                <label
+                  for="exampleFormControlTextarea1"
+                  class="form-label text-white"
+                >
+                  Send Me a Message:
+                </label>
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+                <div class="form-group form-check">
+                  <label class="form-check-label text-white">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      name="subscribe"
+                    />
+                    Subscribe
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+          <div style="width: 50%" margin="5px">
+            <h2 class="contact-title text-white">
+              SouthSide Investments 
+            </h2>
+            <h2 class="contact-title text-white" margin="5px">Contact Information</h2>
+            <h3 class="contact-text text-white">Phone Number: 732-393-8203</h3>
+            <h3 class="contact-text text-white">
+              Email Address: southsideinvestments@gmail.com
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer page-footer font-small">
+      <h6 class="footer-text">
+        SouthSide Investments
+        <br />
+        &copy;Philip Yung, December 2, 2022
+        <br />
+        Terms Of Use | Privacy Statement
+      </h6>
+    </footer>
+
+    <!-- Javascript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
